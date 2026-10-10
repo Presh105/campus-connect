@@ -1,3 +1,4 @@
+import AdminHub from "./pages/admin/AdminHub";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -127,6 +128,7 @@ function AppRoutes() {
       <Route path="/admin/ads" element={<ProtectedRoute><AdminAds /></ProtectedRoute>} />
       <Route path="/admin/rewards" element={<ProtectedRoute><AdminRewards /></ProtectedRoute>} />
       <Route path="/admin/withdrawals" element={<ProtectedRoute><AdminWithdrawals /></ProtectedRoute>} />
+      <Route path="/admin/hub" element={<ProtectedRoute><AdminHub /></ProtectedRoute>} />
       <Route path="/admin/ad-library" element={<ProtectedRoute><AdminAdLibrary /></ProtectedRoute>} />
       <Route path="/admin/video-tasks" element={<ProtectedRoute><AdminVideoTasks /></ProtectedRoute>} />
       
