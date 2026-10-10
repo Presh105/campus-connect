@@ -118,6 +118,13 @@ const adminMenuItems = [
     href: '/admin/withdrawals',
     color: 'text-info'
   },
+    {
+    title: 'App Hub',
+    description: 'Top-ups, disputes, drivers, lodges, restaurants, support, tasks, prices',
+    icon: CreditCard,
+    href: '/admin/hub',
+    color: 'text-info'
+  },
   { 
     title: 'Auto-Post Bot', 
     description: 'AI-generated engagement posts at your interval',
